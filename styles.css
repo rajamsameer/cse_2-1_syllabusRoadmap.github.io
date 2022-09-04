@@ -1,0 +1,15 @@
+.transition-fade {
+    opacity: 1;
+    transition: 350ms;
+}
+
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+img {
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
